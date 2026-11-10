@@ -8,10 +8,9 @@
       "branches": [],
       "branches-ignore": [],
       "types": [
-        "edited"
+        "opened"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

@@ -5,10 +5,9 @@
       "tags": [],
       "tags-ignore": null,
       "types": [
-        "edited"
+        "opened"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

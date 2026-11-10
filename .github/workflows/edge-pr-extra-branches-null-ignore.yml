@@ -10,10 +10,9 @@
         "never"
       ],
       "types": [
-        "edited"
+        "opened"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {
