@@ -5,7 +5,8 @@
       "branches": [
         "__never_matching_branch__"
       ]
-    }
+    },
+    "push": {}
   },
   "permissions": {},
   "jobs": {

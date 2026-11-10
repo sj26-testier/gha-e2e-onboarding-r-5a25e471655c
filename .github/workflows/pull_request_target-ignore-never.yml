@@ -5,7 +5,8 @@
       "tags-ignore": [
         "__never_matching_tag__"
       ]
-    }
+    },
+    "push": {}
   },
   "permissions": {},
   "jobs": {

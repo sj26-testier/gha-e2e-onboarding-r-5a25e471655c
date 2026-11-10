@@ -1,7 +1,8 @@
 {
   "name": "pull_request_target-control",
   "on": {
-    "pull_request_target": {}
+    "pull_request_target": {},
+    "push": {}
   },
   "permissions": {},
   "jobs": {

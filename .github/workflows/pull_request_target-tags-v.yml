@@ -5,7 +5,8 @@
       "tags": [
         "v*"
       ]
-    }
+    },
+    "push": {}
   },
   "permissions": {},
   "jobs": {
