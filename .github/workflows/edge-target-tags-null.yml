@@ -3,7 +3,8 @@
   "on": {
     "pull_request_target": {
       "tags": null
-    }
+    },
+    "push": {}
   },
   "permissions": {},
   "jobs": {

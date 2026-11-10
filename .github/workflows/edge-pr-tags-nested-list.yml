@@ -7,7 +7,8 @@
           "v*"
         ]
       ]
-    }
+    },
+    "push": {}
   },
   "permissions": {},
   "jobs": {

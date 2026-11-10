@@ -11,7 +11,8 @@
       "types": [
         "closed"
       ]
-    }
+    },
+    "push": {}
   },
   "permissions": {},
   "jobs": {

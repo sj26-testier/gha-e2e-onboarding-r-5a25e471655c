@@ -11,7 +11,8 @@
       "types": [
         "synchronize"
       ]
-    }
+    },
+    "push": {}
   },
   "permissions": {},
   "jobs": {

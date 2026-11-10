@@ -6,7 +6,8 @@
         "v*"
       ],
       "branches-ignore": ""
-    }
+    },
+    "push": {}
   },
   "permissions": {},
   "jobs": {

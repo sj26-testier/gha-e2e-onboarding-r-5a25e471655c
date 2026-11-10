@@ -4,7 +4,8 @@
     "pull_request": {
       "tags": [],
       "tags-ignore": []
-    }
+    },
+    "push": {}
   },
   "permissions": {},
   "jobs": {
