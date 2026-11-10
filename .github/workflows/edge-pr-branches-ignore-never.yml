@@ -8,8 +8,7 @@
       "branches-ignore": [
         "never"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

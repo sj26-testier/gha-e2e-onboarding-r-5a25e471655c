@@ -8,8 +8,7 @@
       "tags-ignore": [
         "**"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

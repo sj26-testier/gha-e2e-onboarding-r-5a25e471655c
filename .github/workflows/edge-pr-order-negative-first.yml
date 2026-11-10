@@ -1,0 +1,32 @@
+{
+  "name": "edge-pr-order-negative-first",
+  "on": {
+    "pull_request": {
+      "tags": [
+        "v*"
+      ],
+      "branches-ignore": [
+        "!edge-base-r-adcab986d657",
+        "**"
+      ],
+      "types": [
+        "edited"
+      ]
+    },
+    "push": {}
+  },
+  "permissions": {},
+  "jobs": {
+    "diagnostic": {
+      "name": "edge-pr-order-negative-first",
+      "runs-on": "ubuntu-latest",
+      "timeout-minutes": 2,
+      "steps": [
+        {
+          "name": "Record event",
+          "run": "echo CASE=edge-pr-order-negative-first\njq '{action, number, ref, pull_request: (if .pull_request then {head: (.pull_request.head | {ref,sha}), base: (.pull_request.base | {ref,sha})} else null end)}' \"$GITHUB_EVENT_PATH\"\nprintf 'EVENT=%s\\nREF=%s\\nSHA=%s\\nRUN_ID=%s\\nATTEMPT=%s\\n' \"$GITHUB_EVENT_NAME\" \"$GITHUB_REF\" \"$GITHUB_SHA\" \"$GITHUB_RUN_ID\" \"$GITHUB_RUN_ATTEMPT\"\n"
+        }
+      ]
+    }
+  }
+}

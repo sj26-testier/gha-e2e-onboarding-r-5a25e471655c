@@ -1,8 +1,7 @@
 {
   "name": "edge-pr-control",
   "on": {
-    "pull_request": {},
-    "push": {}
+    "pull_request": {}
   },
   "permissions": {},
   "jobs": {

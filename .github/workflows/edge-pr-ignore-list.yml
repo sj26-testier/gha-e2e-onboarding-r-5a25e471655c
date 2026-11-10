@@ -5,8 +5,7 @@
       "tags-ignore": [
         "v*"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

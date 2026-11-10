@@ -8,8 +8,7 @@
       "branches": [
         "never"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

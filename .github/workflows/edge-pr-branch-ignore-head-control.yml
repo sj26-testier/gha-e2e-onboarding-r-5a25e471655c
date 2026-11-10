@@ -5,8 +5,7 @@
       "branches-ignore": [
         "v-head-r-adcab986d657"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

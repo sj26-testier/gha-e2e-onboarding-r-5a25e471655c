@@ -8,8 +8,7 @@
       "paths": [
         "probe/**"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

@@ -5,8 +5,7 @@
       "tags": {
         "pattern": "*"
       }
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {
