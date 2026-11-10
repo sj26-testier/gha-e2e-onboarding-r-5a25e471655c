@@ -1,0 +1,20 @@
+{
+  "name": "pull_request-control",
+  "on": {
+    "pull_request": {}
+  },
+  "permissions": {},
+  "jobs": {
+    "diagnostic": {
+      "name": "pull_request-control",
+      "runs-on": "ubuntu-latest",
+      "timeout-minutes": 2,
+      "steps": [
+        {
+          "name": "Record safe event receipt",
+          "run": "printf '%s\\n' 'CASE=pull_request-control'\njq '{action, number, ref, before, after, pull_request: (if .pull_request then {number: .pull_request.number, head: (.pull_request.head | {ref, sha}), base: (.pull_request.base | {ref, sha})} else null end)}' \"$GITHUB_EVENT_PATH\"\nprintf 'EVENT=%s\\nREF=%s\\nSHA=%s\\nRUN_ID=%s\\nATTEMPT=%s\\n' \"$GITHUB_EVENT_NAME\" \"$GITHUB_REF\" \"$GITHUB_SHA\" \"$GITHUB_RUN_ID\" \"$GITHUB_RUN_ATTEMPT\"\n"
+        }
+      ]
+    }
+  }
+}
