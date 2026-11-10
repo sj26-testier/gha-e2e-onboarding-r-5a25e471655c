@@ -4,9 +4,11 @@
     "pull_request": {
       "tags": [
         "**"
+      ],
+      "branches": [
+        "main"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

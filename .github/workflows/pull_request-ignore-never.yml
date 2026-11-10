@@ -4,9 +4,11 @@
     "pull_request": {
       "tags-ignore": [
         "__never_matching_tag__"
+      ],
+      "branches": [
+        "main"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

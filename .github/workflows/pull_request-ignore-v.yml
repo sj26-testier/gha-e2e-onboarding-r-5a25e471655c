@@ -4,9 +4,11 @@
     "pull_request": {
       "tags-ignore": [
         "v*"
+      ],
+      "branches": [
+        "main"
       ]
-    },
-    "push": {}
+    }
   },
   "permissions": {},
   "jobs": {

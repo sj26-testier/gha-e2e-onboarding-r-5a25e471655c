@@ -1,8 +1,7 @@
 {
   "name": "pull_request-control",
   "on": {
-    "pull_request": {},
-    "push": {}
+    "pull_request": {}
   },
   "permissions": {},
   "jobs": {
