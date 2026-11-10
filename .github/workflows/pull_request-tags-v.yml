@@ -4,6 +4,9 @@
     "pull_request": {
       "tags": [
         "v*"
+      ],
+      "branches": [
+        "main"
       ]
     }
   },

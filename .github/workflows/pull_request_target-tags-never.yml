@@ -4,6 +4,9 @@
     "pull_request_target": {
       "tags": [
         "__never_matching_tag__"
+      ],
+      "branches": [
+        "main"
       ]
     }
   },
